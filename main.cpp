@@ -210,7 +210,7 @@ int main () {
 		
 	system("clear");
 	
-	cout << "[1]Mostrar Valores Entre Intervalos\n[2]Imprimir Busca\n[3]Inserir na Posicao\n\n";
+	cout << "[1]Mostrar Valores Entre Intervalos\n[2]Imprimir Busca\n[3]Inserir na Posicao\n[4]Numero de Cadastros\n\n";
 	
 	cin >> a;
 	cin.ignore();
@@ -233,7 +233,11 @@ int main () {
 		tamanho++;
 		cin.ignore();
 		break;
-		
+
+		case '4':
+		cout << "Numero de Cadastros: "<< nPessoasBin() << endl;
+		break; 
+				
 	}
 	
 	cout << "\nPressione Enter para continuar...\n\n";
