@@ -123,7 +123,8 @@ void lerCsvEGravarBinario(int tamanho)
 	for (int i = 0; i < tamanho; i++){
 
 		Data d;
-		arquivo.ignore();
+		if(i != 0){
+		arquivo.ignore();}
 		arquivo.getline(d.anzsic06, 40, ',');
 		arquivo.getline(d.Area, 40, ',');
 		arquivo >> d.year;
