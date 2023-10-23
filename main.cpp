@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <string>
-#include <iomanip>
+#include <iomanip> // Formatação da saída, uso do setw()
 
 using namespace std;
 
@@ -51,12 +51,7 @@ void inserirPosicao(int tamanho)
    gravar.seekp((tamanho)*sizeof(Data));
    tamanho--;
    ler.seekg((tamanho)*sizeof(Data));
-   
-	//char vetorQuebra[2] = "\n";
-	//string temp = strcat(vetorQuebra,d.anzsic06);
-	//strcpy(d.anzsic06, temp.c_str());
-	//cout << "qualquer coisa ai;";
-	//cout << d.anzsic06;
+
 
 	while(tamanho >= posicao){
 		ler.read(reinterpret_cast<char*>(&aux),sizeof(Data));
@@ -96,11 +91,7 @@ void editar()
       fstream atualizar("dados.dat", ios::binary | ios::in | ios::out);
 
       Data d;
-      // atualizar.seekg(posicao * sizeof(Data));
-      // atualizar.read(reinterpret_cast<char *>(&d), sizeof(Data));
-      // !!!!!!!!!!!!!!!
       cin.ignore();
-      // !!!!!!!!!!!!!!!
       cout << "anzsic06: " << endl;
       cin.getline(d.anzsic06, 40);
       cout << "Area: " << endl;
