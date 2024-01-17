@@ -22,3 +22,6 @@
 * nPessoasBin -> calcula o número de registros no arquivo tipado
 * nPessoasCsv -> calcula o número de registros no arquivo csv
 * main -> inputs + interface </small>
+
+
+##### O arquivo sort.cpp executa a ordenação externa
