@@ -14,6 +14,8 @@
 *Mostrar todos os registros
 *Mostrar registros em intervalo de posições
 *Imprimir busca a partir da area
+  
+  
 
 Procedimentos internas do programa:
 *lerCsvEGravarBinario -> busca dados do csv e escreve no binário 
