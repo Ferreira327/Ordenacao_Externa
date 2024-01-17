@@ -17,7 +17,7 @@
 * Imprimir busca a partir da area
   
 
-Procedimentos internas do programa:
+##### Procedimentos internas do programa:
 * lerCsvEGravarBinario -> busca dados do csv e escreve no binário 
 * nPessoasBin -> calcula o número de registros no arquivo tipado
 * nPessoasCsv -> calcula o número de registros no arquivo csv
