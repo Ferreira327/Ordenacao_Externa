@@ -8,6 +8,7 @@
 
 ##### Fluxo de execução: ao iniciar, o arquivo csv é lido e passa as informações para um arquivo tipado. Assim, toda e qualquer operação realizada pelo programa será feita diretamente no arquivo tipado (binário). Dentre as operações, temos:
 <small>
+  
 * Adicionar registro em posição específica
 * Editar registro de posição específica
 * Trocar 2 registros de posição
